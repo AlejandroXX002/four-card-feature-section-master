@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
+    <link rel="stylesheet" href="cardsweb.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Four card feature section</title>
+  </head>
+
+  <body>
+
+    <header >
+        <!-- Estas clases de CSS pueden ser semánticas         -->
+      <h2 class="one">Reliable, efficient delivery</h2>
+      <h2 class="two"><b>Powered by technology</b></h2>
+      <p class="three">Our Artificial Intelligence powered tools use millions of project
+                data points to ensure that your project is successful</p>
+    </header>
+
+    <main>     
+            <section class="first column">
+                <div class="card glass">
+                    <h3>Supervisor</h3>
+                    <p class="words">Monitors activity to identify project roadblocks</p>
+                    <img src="./images/icon-supervisor.svg" alt="mignifying-glass" />
+                </div>
+            </section> 
+            <!-- Este tag no estaba cerrado -->
+
+            <section class="second column">
+                <div class="card house">
+                    <h3>Teambuilder</h3>
+                    <p class="words">scans our talent network to create the optimal team for your project</p>
+                    <img src="./images/icon-team-builder.svg" alt="house" />
+                    <!-- TODO: Buscar en google: how to write semantic alt attributes  -->
+                </div>
+                
+                <div class="card light">
+                    <h3>Karma</h3>
+                    <p class="words">Regularly evaluates our talent to ensure quality</p>
+                    <img src="./images/icon-karma.svg" alt="light-bulb" />
+                </div>
+            </section>
+
+                <section class="third column">
+                    <div class="card calculator">
+                        <h3>Calculator</h3>
+                        <p class="words">Uses data from past prohjects to provide better delivery estimates</p>
+                        <img src="./images/icon-calculator.svg" alt="calculator" />
+                    </div>
+                </section>
+    </main>
+  </body>
+</html>

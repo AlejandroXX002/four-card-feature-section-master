@@ -1,0 +1,118 @@
+.words {
+    margin-top: 0;
+    padding-bottom: 15px;
+}
+
+p {
+    color: gray;
+    font-size: 15px;
+}
+
+h3 {
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin: 40px 15px 55px;
+}
+
+.one {
+    font-weight: 100;
+    margin: 0;
+}
+
+.two {
+    margin: 0;
+}
+
+.three {
+    margin: auto;
+    width: 480px;
+    padding-top: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 2px 2px 8px gray; */
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+    font-size: 15px;
+    width: 18rem;
+    height: 12rem; 
+    padding: 25px;
+}
+
+.glass {
+    border-top: solid hsl(180, 62%, 55%);  
+}
+
+.calculator  {
+    border-top: solid hsl(212, 86%, 64%);   
+}
+
+
+.house {
+    border-top: solid hsl(0, 78%, 62%);
+    margin-bottom: 20px;  
+}
+
+
+.light {
+    border-top: solid hsl(34, 97%, 64%);
+    
+}
+
+img {
+    align-self: flex-end;
+}
+
+main {
+    /* background-color: tomato; */
+    margin-top: 100px;
+    width: 100%;
+    /* Definir un flex container, que sea un ROW, que tenga sus hijos espaciados entre ellos  */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.first,
+.third {
+    /* FIRST debe ser:
+    * Una columna
+    * Centrada en el eje X
+    * Centrada en el eje Y
+    */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
